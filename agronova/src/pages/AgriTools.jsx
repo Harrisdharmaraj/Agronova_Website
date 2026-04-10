@@ -19,7 +19,7 @@ function AgriTools({ setPage }) {
     setResult("Calculating...");
 
     try {
-      const res = await fetch("http://localhost:5000/calculate-farm-inputs", {
+      const res = await fetch("http://180.235.121.245:8032/calculate-farm-inputs", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
